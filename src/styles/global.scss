@@ -1,0 +1,16 @@
+@use 'varaiable' as v;
+
+html, body {
+  min-height: 100vh;
+  font-size: 10px;
+  font-family: v.$primary-font;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  position: relative;
+}
