@@ -1,2 +1,3 @@
-run:
-	npm run dev
+watch:
+	docker compose build
+	docker compose up
