@@ -1,7 +1,7 @@
 import App from 'next/app';
 import '/src/styles/global.scss';
 import { ComponentProps, ComponentType } from 'react';
-import { wrapper } from '../app/store/store';
+import { wrapper } from '../common/store/store';
 
 type Props = {
   Component: ComponentType,

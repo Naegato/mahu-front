@@ -1,7 +1,7 @@
 import { NextPage } from 'next';
-import { wrapper } from '../app/store/store';
-import { fetchStrapiContent, selectStrapiContent } from '../app/slices/strapiSlice';
-import { useAppSelector } from '../app/hooks/useAppSelector';
+import { wrapper } from '../common/store/store';
+import { fetchStrapiContent, selectStrapiContent } from '../common/slices/strapiSlice';
+import { useAppSelector } from '../common/hooks/useAppSelector';
 import Link from 'next/link';
 
 const Homepage: NextPage = () => {
