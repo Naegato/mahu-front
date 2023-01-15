@@ -24,4 +24,4 @@ export type RootState = ReturnType<Store['getState']>;
 export type AppThunk = ThunkAction<void, RootState, null, Action<any>>;
 
 
-export const wrapper = createWrapper(store, { debug : false });
+export const wrapper = createWrapper(store, { debug: false });

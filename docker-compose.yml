@@ -1,9 +1,8 @@
 version: '2.13'
 
 services:
-  app:
+  app-dev:
     build:
-      context: .
-      dockerfile: Dockerfile
+      dockerfile: DockerfileDev
     ports:
       - "3000:3000"

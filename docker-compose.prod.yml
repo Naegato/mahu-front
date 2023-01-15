@@ -1,0 +1,8 @@
+version: '2.13'
+
+services:
+  app-prod:
+    build:
+      dockerfile: DockerfileProd
+    ports:
+      - "3001:3000"
